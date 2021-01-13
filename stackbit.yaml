@@ -1,0 +1,15 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "0xs initial project"
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  subclaim:
+    type: "page"
+    label: "Subclaims"
+    urlPath: "/subclaim/{slug}"
